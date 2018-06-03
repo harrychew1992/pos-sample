@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    position:relative;
+    padding:0;
+    font-family:"arial";
+    background: linear-gradient(to right, #0077b6 , #13aab1);
+    font-size:14px;
+    line-height:1.7;
+}
+body .page{
+    background: linear-gradient(to right, #0077b6 , #13aab1);
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width:100%;
+    height: auto;
+}
+@-moz-document url-prefix() {
+    /* Firefox doesn't respect max-width in certain situations */
+    img{ width: 100%; max-width: -moz-max-content !important; }
+}
+header{
+   text-align:center; 
+}
+footer{
+   text-align:center; 
+   font-size:80%;
+   padding:10px;
+   color:#fff;
+}
+.main-wrapper{
+    
+}
+.container{
+    width:767px;
+    margin:0 auto;
+}
+.row{
+    
+}
+.row:before,
+.row:after{
+    content:"";
+    width:100%;
+    display:table;
+}
+.col-6{
+    width:50%;
+    float:left;
+}
+
+/*******************
+       Button
+ *******************/
+.btn{
+    display:block;
+    border-radius:4px;
+    background:#f2f2f2;
+    text-align:center;
+    padding:15px;
+    color:#fff;
+    text-decoration: none;  
+}
+.btn:hover{
+    background:#d2d2d2;
+}
+.btn .fa{
+    font-size:72px; 
+    margin-bottom:5px;
+}
+.btn-help{
+    background: linear-gradient(#3fc13b, #3da43b);
+}
+.btn-help:hover,
+.btn-help:focus,
+.btn-help:active{
+    background: linear-gradient(#3da43b,#3fc13b);
+}
+.btn-query{
+    background: linear-gradient(#e3e259,#c0c308);
+}
+.btn-query:hover,
+.btn-query:focus,
+.btn-query:active{
+    background: linear-gradient(#c0c308,#e3e259);
+}
+.btn-pay{
+    background: linear-gradient(#13aab1, #0077b6);
+}
+.btn-pay:hover,
+.btn-pay:focus,
+.btn-pay:active{
+    background: linear-gradient(#0077b6, #13aab1);
+}
+.btn-setting{
+    background: linear-gradient(#f47639, #e5372e);
+    
+}
+.btn-setting:hover,
+.btn-setting:focus,
+.btn-setting:active{
+    background: linear-gradient(#e5372e, #f47639);
+}
+
+
+
+@media(max-width:1200px){
+    
+}
+
+@media(max-width:991px){
+    .container{
+        width:auto;
+    }
+    
+}
+@media(max-width:767px){
+}

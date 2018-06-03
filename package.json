@@ -1,0 +1,7 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "cordova-plugin-barcodescanner": "^0.7.4"
+  }
+}
